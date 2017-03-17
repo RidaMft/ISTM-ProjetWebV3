@@ -6,8 +6,8 @@
     </head>
     <body>
         <?php
-            session_start();
-            //test branch 1
+            session_start();   
+            
             include("vues/v_entete.php") ;
             require_once("util/class.PDO.Ionis.inc.php");
 
